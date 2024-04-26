@@ -10,6 +10,9 @@ namespace herencia
      * herencia es la caracterisitica de pasar atributos y metodos 
      * a otros objetos o clases*/
     //clase mama
+    //esto es un comentario nuevo 26 de abril
+    //esto es un  segundo comentario nuevo 26 de abril
+
     class Operacion
     {
         /*guarda los espacios de memoria de 3 variables*/
