@@ -17,26 +17,26 @@ namespace herencia
     {
         /*guarda los espacios de memoria de 3 variables*/
         //modificador tipo de dato nombre 
-        protected         int          valor1;
-        protected         int          valor2;
-        protected         int          resultado;
+        protected         float       valor1;
+        protected         float       valor2;
+        protected         float        resultado;
         // atributos de la clase operacion NINGUNO
         /*los metodos que se ponen a continuacion
          * son las funciones de  obtener el valor 
          * de la caja de texto y guardarlo en la 
          * memoria dentro de la variable indicada*/
         //USAMOS UN CONSTRUCTOR POR CADA CAJA DE MEMORIA 
-        public int Valor1 //CAJA DE MEMORIA 1
+        public float Valor1 //CAJA DE MEMORIA 1
         {
              get { return valor1; } //vamos por el valor
             set { valor1 = value; } //lo guardamos en memoria 
         }
-        public int Valor2 //CAJA DE MEMORIA 2
+        public float Valor2 //CAJA DE MEMORIA 2
         {
             get { return valor2; } //vamos por el valor
             set { valor2 = value; } //lo guardamos en memoria 
         }
-        public int Resultado //CAJA DE MEMORIA 3 resultado 
+        public float Resultado //CAJA DE MEMORIA 3 resultado 
         {
             get { return resultado; } //vamos por el valor
             set { resultado = value; } //lo guardamos en memoria 
@@ -57,7 +57,7 @@ namespace herencia
         //atributos de esta clase
         //metodos de clase
 
-        public int operar (int v1,int v2)
+        public float operar (float v1,float v2)
         {
             valor1 =v1; //hacemos al constructor de operacion
             valor2 =v2;
@@ -75,7 +75,7 @@ namespace herencia
         //atributos de esta clase
         //metodos de clase
 
-        public int operar(int v1, int v2)
+        public float operar(float v1, float v2)
         {
             valor1 = v1; //hacemos al constructor de operacion
             valor2 = v2;
@@ -93,7 +93,7 @@ namespace herencia
         //atributos de esta clase
         //metodos de clase
 
-        public int operar(int v1, int v2)
+        public float operar(float v1, float v2)
         {
             valor1 = v1; //hacemos al constructor de operacion
             valor2 = v2;
@@ -103,7 +103,7 @@ namespace herencia
     class dividir : Operacion //los : nos dan permisos de usar
                                   //lo que tiene operacion
     {
-        public double Operar(int num1, int num2)
+        public double Operar(float num1, float num2)
         {
             // Verificar si el divisor es cero para evitar una división por cero
             if (num2 == 0)
@@ -115,7 +115,7 @@ namespace herencia
             return (double)num1 / num2;
         }
 
-        public int operar(int v1, int v2)
+        public float operar(float v1, float  v2)
         {
             valor1 = v1; //hacemos al constructor de operacion
             valor2 = v2;
