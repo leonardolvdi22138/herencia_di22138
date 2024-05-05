@@ -16,7 +16,7 @@ namespace herencia
     class Operacion
     {
         /*guarda los espacios de memoria de 3 variables*/
-        //modificador tipo de dato nombre 
+        //modificador tipo de dato nombre  //mesajeesss
         protected         float       valor1;
         protected         float       valor2;
         protected         float        resultado;
