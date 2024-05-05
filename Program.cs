@@ -121,7 +121,7 @@ namespace herencia
             valor2 = v2;
             return resultado = valor1 / valor2;
         }
-    }
+    } //www
 
     internal static class Program
     {
