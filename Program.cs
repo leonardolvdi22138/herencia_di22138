@@ -117,7 +117,7 @@ namespace herencia
 
         public float operar(float v1, float  v2)
         {
-            valor1 = v1; //hacemos al constructor de operacion
+            valor1 = v1; //hacemos al constructor de operacion wwwww
             valor2 = v2;
             return resultado = valor1 / valor2;
         }
