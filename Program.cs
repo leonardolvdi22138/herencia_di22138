@@ -87,7 +87,7 @@ namespace herencia
     {
         //las clases hijas tambien pueden tener sus
         //propios atributos y metodos
-        //pueden tener variables de uso solamente
+        //pueden tener variables de uso solamente //hola
         //para la clase hijo
         //declarar variables de esta clase
         //atributos de esta clase
